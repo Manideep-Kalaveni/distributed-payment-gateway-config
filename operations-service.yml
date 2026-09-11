@@ -1,0 +1,12 @@
+server:
+  port: 9020
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/swiftpay-operations-db
+
+app:
+  webhook:
+    delivery:
+      redis-key: "webhook-retry"
+      poll-batch-size: 100

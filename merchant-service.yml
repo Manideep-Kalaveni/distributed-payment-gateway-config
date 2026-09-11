@@ -1,0 +1,9 @@
+server:
+  port: 9010
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/swiftpay-merchant-db
+
+jwt:
+  secret-key: thisisasamplesecretkeykindlydonotusethiskeyintheproductionenvironment1234
