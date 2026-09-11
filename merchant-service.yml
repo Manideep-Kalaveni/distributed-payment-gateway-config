@@ -7,3 +7,6 @@ spring:
 
 jwt:
   secret-key: thisisasamplesecretkeykindlydonotusethiskeyintheproductionenvironment1234
+
+webhook:
+  secret-encryption-key: JNWJEGfgNPwSw2e19NXuabjOJUKgi4hi2pqPq/stezY=
